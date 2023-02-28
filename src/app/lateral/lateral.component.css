@@ -1,0 +1,18 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lateral {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    min-height: 300px;
+    justify-content: center;
+    background-color: rgb(192, 192, 192);
+}
+
+.mensagem {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}

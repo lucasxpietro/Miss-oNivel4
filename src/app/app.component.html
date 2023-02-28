@@ -1,0 +1,15 @@
+<header id="cabecalho">
+    <div id="topo">
+      <img width="70" height="70" src="/assets/angular.png" />
+      <h1 style="display: inline;">{{title}}</h1>
+      <img id="login" width="50" height="50" src="/assets/login.png" />
+    </div>
+    <nav id="menu">
+      <a routerLink="/home">Home</a>
+      <a routerLink="/produto">Livros</a>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+  <!-- O restante do código não é modificado -->
+  <router-outlet></router-outlet>
+  <app-rodape></app-rodape>
